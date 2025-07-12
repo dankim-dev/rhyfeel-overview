@@ -64,8 +64,7 @@ RhyFeel addresses this gap by **translating audio into visual and tactile signal
   → Vibration intensity modulated by audio strength.
 
 4️⃣ **Gesture Control**  
-  Open palm = play / Closed fist = pause  
- *(MediaPipe Hands, webcam required)*
+  Open palm = play / Closed fist = pause  *(MediaPipe Hands, webcam required)*
 
 <br>
 
