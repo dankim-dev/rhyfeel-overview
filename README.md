@@ -23,7 +23,7 @@ RhyFeel is an experimental platform that allows hearing-impaired users to **see*
 ## Why RhyFeel?
 
 Despite growing accessibility technologies, **music remains largely inaccessible** to people with hearing impairments.  
-RhyFeel addresses this gap by **translating audio into visual and tactile signals**, offering a new sensory pathway to experience rhythm, beat, and emotion.
+RhyFeel addresses this gap by **translating audio into visual and tactile signals**, offering a new sensory pathway to experience rhythm and beat.
 
 
 
@@ -49,16 +49,22 @@ RhyFeel addresses this gap by **translating audio into visual and tactile signal
 ## System Flow
 
 1️⃣ **Upload Music**  
- User uploads a local music file (MP3/WAV).
+- User uploads a local music file (MP3/WAV).
+<br>
+</br>
 
 2️⃣ **Audio Analysis (10ms step)**  
- Performs real-time FFT using Web Audio API.
+- Performs real-time FFT using Web Audio API.
+<br>
+</br>
 
 3️⃣ **Output Split**  
-- 🎨 *3D Visualization*  
+- **3D Visualization**  
   → Dynamic icosahedron reacts to beat & mood.  
-- 📳 *Wristband Vibration*  
+- **Wristband Vibration**  
   → Vibration intensity modulated by audio strength.
+<br>
+</br>
 
 4️⃣ **Gesture Control**  
  Open palm = play / Closed fist = pause  
@@ -79,10 +85,10 @@ RhyFeel addresses this gap by **translating audio into visual and tactile signal
 
 ## Key Values
 
-- Promotes **music accessibility** for the deaf community  
-- Offers **immersive sensory experience** (visual + tactile)  
-- Integrates lightweight **hardware + web** system  
-- Usable **anywhere, anytime** with just a browser and a USB port
+- Enhances **music accessibility** for the hearing-impaired community  
+- Delivers an **immersive multi-sensory experience** (visual + tactile)  
+- Combines lightweight **hardware and browser-based interaction**  
+- Works **anywhere, anytime** with just a browser and a USB connection
 
 
 
@@ -93,7 +99,7 @@ RhyFeel addresses this gap by **translating audio into visual and tactile signal
 
 1. Connect the haptic wristband via USB  
 2. Upload your favorite music  
-3. Watch — and feel — your music come alive
+3. Watch and feel — your music come alive!
 
 
 ## Contributors
@@ -107,8 +113,6 @@ RhyFeel addresses this gap by **translating audio into visual and tactile signal
 This GitHub organization contains all repositories related to **RhyFeel**, the 2024 graduation project developed at Sookmyung Women’s University.
 
 🔗 **Organization URL:** [https://github.com/it-graduation-project](https://github.com/it-graduation-project)
-
----
 
 #### [`overview-en`](https://github.com/it-graduation-project/overview-en)  
 - English-language project summary with README, poster, and documentation.  
