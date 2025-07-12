@@ -52,22 +52,22 @@ RhyFeel addresses this gap by **translating audio into visual and tactile signal
 ## System Flow
 
 1️⃣ **Upload Music**  
-- User uploads a local music file (MP3/WAV).
+  User uploads a local music file (MP3/WAV).
 
 2️⃣ **Audio Analysis (10ms step)**  
-- Performs real-time FFT using Web Audio API.
+  Performs real-time FFT using Web Audio API.
 
 3️⃣ **Output Split**  
-- **3D Visualization**  
+- *3D Visualization*  
   → Dynamic icosahedron reacts to beat & mood.  
-- **Wristband Vibration**  
+- *Wristband Vibration*  
   → Vibration intensity modulated by audio strength.
 
 4️⃣ **Gesture Control**  
-- Open palm = play / Closed fist = pause  
+  Open palm = play / Closed fist = pause  
  *(MediaPipe Hands, webcam required)*
 
-
+<br>
 
 ## Tech Stack
 
@@ -78,7 +78,7 @@ RhyFeel addresses this gap by **translating audio into visual and tactile signal
 | **Hardware** | ESP32, 4× ERM Vibration Motors, L9110S Driver |
 | **Interface**| Web Serial API (USB connection via browser)  |
 
-
+<br>
 
 ## Key Values
 
