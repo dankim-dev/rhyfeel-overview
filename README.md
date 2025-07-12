@@ -7,6 +7,17 @@ RhyFeel is an experimental platform that allows hearing-impaired users to **see*
 
 ![RhyFeel Poster](./assets/grad-poster.png)
 
+## Table of Contents
+
+- [Why RhyFeel?](#why-rhyfeel)
+- [What It Does](#what-it-does)
+- [System Flow](#system-flow)
+- [Tech Stack](#tech-stack)
+- [Key Values](#key-values)
+- [Try It Out](#try-it-out)
+- [Contributors](#contributors)
+- [Repository Overview](#repository-overview)
+
 
 
 ## Why RhyFeel?
@@ -89,6 +100,38 @@ RhyFeel addresses this gap by **translating audio into visual and tactile signal
 
 - **Dan Kim** (BEng IT Engineering, Sookmyung Women's University, Seoul) 
 - **Hansel Lee** (BEng IT Engineering, Sookmyung Women's University, Seoul)  
+
+
+## Repository Overview
+
+This GitHub organization contains all repositories related to **RhyFeel**, the 2024 graduation project developed at Sookmyung Women’s University.
+
+🔗 **Organization URL:** [https://github.com/it-graduation-project](https://github.com/it-graduation-project)
+
+---
+
+### [`overview-en`](https://github.com/it-graduation-project/overview-en)  
+- English-language project summary with README, poster, and documentation.  
+
+### [`overview`](https://github.com/it-graduation-project/overview)  
+- Korean-language overview of RhyFeel. Contains summary documents and metadata.
+
+### [`frontend`](https://github.com/it-graduation-project/frontend)  
+- Frontend React application with real-time music visualization using Three.js and Web Audio API.  
+- Includes **hardware integration** via Web Serial API to control haptic feedback through ESP32.
+
+### [`hardware`](https://github.com/it-graduation-project/hardware)  
+- Hardware schematics and code for ESP32 + vibration motor system.  
+- Includes motor driver wiring, pinouts, PWM logic, and power setup (12V → 5V step-down).
+
+### [`backend-analysis`](https://github.com/it-graduation-project/backend-analysis)  
+- Backend Server, used to analyze FFT and Beat Analysis and return data to the frontend.
+
+### 🔒 [`backend`](https://github.com/it-graduation-project/backend) *(Private)*  
+- Original backend built with **Spring Boot** and **MySQL**, deployed on AWS EC2.  
+- **Private** due to data security concerns. Handles user management and session authentication via Google OAuth + JWT.
+
+
 
 ---
 
