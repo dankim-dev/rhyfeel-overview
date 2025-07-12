@@ -110,24 +110,23 @@ This GitHub organization contains all repositories related to **RhyFeel**, the 2
 
 ---
 
-### [`overview-en`](https://github.com/it-graduation-project/overview-en)  
+#### [`overview-en`](https://github.com/it-graduation-project/overview-en)  
 - English-language project summary with README, poster, and documentation.  
 
-### [`overview`](https://github.com/it-graduation-project/overview)  
+#### [`overview`](https://github.com/it-graduation-project/overview)  
 - Korean-language overview of RhyFeel. Contains summary documents and metadata.
 
-### [`frontend`](https://github.com/it-graduation-project/frontend)  
+#### [`frontend`](https://github.com/it-graduation-project/frontend)  
 - Frontend React application with real-time music visualization using Three.js and Web Audio API.  
 - Includes **hardware integration** via Web Serial API to control haptic feedback through ESP32.
+  - Hardware schematics and code for ESP32 + vibration motor system.  
+  - Includes motor driver wiring, pinouts, PWM logic, and power setup (12V → 5V step-down).
 
-### [`hardware`](https://github.com/it-graduation-project/hardware)  
-- Hardware schematics and code for ESP32 + vibration motor system.  
-- Includes motor driver wiring, pinouts, PWM logic, and power setup (12V → 5V step-down).
 
-### [`backend-analysis`](https://github.com/it-graduation-project/backend-analysis)  
+#### [`backend-analysis`](https://github.com/it-graduation-project/backend-analysis)
 - Backend Server, used to analyze FFT and Beat Analysis and return data to the frontend.
 
-### 🔒 [`backend`](https://github.com/it-graduation-project/backend) *(Private)*  
+#### [`backend`](https://github.com/it-graduation-project/backend) *(🔒 Private)*  
 - Original backend built with **Spring Boot** and **MySQL**, deployed on AWS EC2.  
 - **Private** due to data security concerns. Handles user management and session authentication via Google OAuth + JWT.
 
