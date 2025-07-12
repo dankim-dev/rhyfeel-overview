@@ -7,6 +7,8 @@ RhyFeel is an experimental platform that allows hearing-impaired users to **see*
 
 ![RhyFeel Poster](./assets/grad-poster.png)
 
+<br>
+
 ## Table of Contents
 
 - [Why RhyFeel?](#why-rhyfeel)
@@ -19,13 +21,14 @@ RhyFeel is an experimental platform that allows hearing-impaired users to **see*
 - [Repository Overview](#repository-overview)
 
 
+<br>
 
 ## Why RhyFeel?
 
 Despite growing accessibility technologies, **music remains largely inaccessible** to people with hearing impairments.  
 RhyFeel addresses this gap by **translating audio into visual and tactile signals**, offering a new sensory pathway to experience rhythm and beat.
 
-
+<br>
 
 ## What It Does
 
@@ -44,30 +47,24 @@ RhyFeel addresses this gap by **translating audio into visual and tactile signal
 - **Web-Based Experience**  
   No installation required — works right in the browser.
 
-
+<br>
 
 ## System Flow
 
 1️⃣ **Upload Music**  
 - User uploads a local music file (MP3/WAV).
-<br>
-</br>
 
 2️⃣ **Audio Analysis (10ms step)**  
 - Performs real-time FFT using Web Audio API.
-<br>
-</br>
 
 3️⃣ **Output Split**  
 - **3D Visualization**  
   → Dynamic icosahedron reacts to beat & mood.  
 - **Wristband Vibration**  
   → Vibration intensity modulated by audio strength.
-<br>
-</br>
 
 4️⃣ **Gesture Control**  
- Open palm = play / Closed fist = pause  
+- Open palm = play / Closed fist = pause  
  *(MediaPipe Hands, webcam required)*
 
 
@@ -90,8 +87,7 @@ RhyFeel addresses this gap by **translating audio into visual and tactile signal
 - Combines lightweight **hardware and browser-based interaction**  
 - Works **anywhere, anytime** with just a browser and a USB connection
 
-
-
+<br>
 
 ## Try It Out
 
@@ -101,12 +97,14 @@ RhyFeel addresses this gap by **translating audio into visual and tactile signal
 2. Upload your favorite music  
 3. Watch and feel — your music come alive!
 
+<br>
 
 ## Contributors
 
 - **Dan Kim** (BEng IT Engineering, Sookmyung Women's University, Seoul) 
 - **Hansel Lee** (BEng IT Engineering, Sookmyung Women's University, Seoul)  
 
+<br>
 
 ## Repository Overview
 
@@ -135,8 +133,10 @@ This GitHub organization contains all repositories related to **RhyFeel**, the 2
 - **Private** due to data security concerns. Handles user management and session authentication via Google OAuth + JWT.
 
 
+<br>
 
 ---
+<br>
 
 > *RhyFeel is a graduation capstone project developed at Sookmyung Women’s University in 2024. All rights reserved by the authors.*
 
