@@ -101,7 +101,7 @@ RhyFeel addresses this gap by **translating audio into visual and tactile signal
 ## Contributors
 
 - **Dan Kim** (BEng IT Engineering, Sookmyung Women's University, Seoul) 
-- **Hansel Lee** (BEng IT Engineering, Sookmyung Women's University, Seoul)  
+- **Hanseul Lee** (BEng IT Engineering, Sookmyung Women's University, Seoul)  
 
 <br>
 
