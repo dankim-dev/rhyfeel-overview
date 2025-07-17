@@ -1,5 +1,5 @@
 # RhyFeel: Experiencing Music Without Hearing
-*2024 Graduation Project – A Multi-Modal Music Translation Platform for the Hearing Impaired*
+*2024 Sookmyung W. Univ. Graduation Project – A Multi-Modal Music Translation Platform for the Hearing Impaired*
 
 RhyFeel is an experimental platform that allows hearing-impaired users to **see** and **feel** music in real time through synchronized visual and haptic feedback.
 
